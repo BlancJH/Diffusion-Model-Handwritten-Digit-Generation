@@ -23,7 +23,7 @@ These notebooks showcase practical understanding of diffusion processes, noise s
 
 - Side-by-side comparison of schedule performance
 
-- Training loss visualization
+- Training loss visualisation
 
 - Generated sample grids for each version
 
@@ -43,7 +43,7 @@ Demonstrating:
 
 - Implementation clarity
 
-- Simple noise schedule behavior
+- Simple noise schedule behaviour
 
 Notebook:
 [Linear β-Schedule Notebook](diffusion_model_digit_generation_2-3.ipynb)
@@ -67,13 +67,7 @@ Notebook:
 ![Linear Schedule Sample Outputs](Result_Linear.png)
 ### Cosine Schedule Sample Outputs
 
-## Repository Structure
-├── diffusion_model_digit_generation.ipynb         
-
-├── diffusion_model_digit_generation(cosine schedule).ipynb
-
-├── README.md                                             
-
+![Cosine Schedule Sample Outputs](Result_Cosine.png)
 ## Technologies Used
 
 - Python
