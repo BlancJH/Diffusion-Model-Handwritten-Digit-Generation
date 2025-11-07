@@ -64,6 +64,7 @@ Notebook:
 ## Results
 ### Linear Schedule Sample Outputs
 
+![Linear Schedule Sample Outputs](Result_Linear.png)
 ### Cosine Schedule Sample Outputs
 
 ## Repository Structure
