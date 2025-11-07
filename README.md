@@ -3,9 +3,9 @@ This project implements a Denoising Diffusion Probabilistic Model (DDPM) in PyTo
 
 There are two versions of DDPM in PyTorch to generate handwritten digits:
 
-1. Linear β-Schedule Diffusion Model
+1. [Linear β-Schedule Notebook](diffusion_model_digit_generation.ipynb)
 
-2. Cosine β-Schedule Diffusion Model
+2. [Cosine β-Schedule Notebook](diffusion_model_digit_generation(cosine%20schedule).ipynb)
 
 Both models follow the core DDPM framework but use different noise schedules, allowing comparison of stability, sample quality, and training behavior.
 
@@ -46,6 +46,7 @@ Demonstrating:
 - Simple noise schedule behavior
 
 Notebook:
+[Linear β-Schedule Notebook](diffusion_model_digit_generation_2-3.ipynb)
 
 ### 2. Cosine β-Schedule (Improved Signal-to-Noise Ratio)
 
@@ -58,6 +59,7 @@ Implements the cosine schedule introduced in Nichol & Dhariwal (Improved Denoisi
 - Higher-quality samples with fewer steps
 
 Notebook:
+[Cosine β-Schedule Notebook](diffusion_model_digit_generation_2-4(cosine%20schedule).ipynb)
 
 ## Results
 ### Linear Schedule Sample Outputs
